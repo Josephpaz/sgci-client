@@ -1,0 +1,12 @@
+{
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "quotes": [2, "single", "avoid-escape"],
+    "@typescript-eslint/quotes": ["error"],
+    "space-before-function-paren": "off",
+    "@typescript-eslint/space-before-function-paren": ["error"]
+  }
+}
